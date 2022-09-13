@@ -1,0 +1,354 @@
+#root {
+
+  height: 100%;
+
+  background: #000000;
+
+
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.background-home {
+  position: absolute;
+  width: 100%;
+
+  background: url(../public/background.jpeg);
+  background-repeat: no-repeat;
+  display: flex;
+  /* or inline-flex */
+  justify-content: center;
+  background-color: #000000;
+}
+
+.rectangle {
+  position: absolute;
+  right: 20%;
+  width: 281px;
+  height: 36px;
+  background: #6B63B5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.agregar {
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 34px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+  padding-top: 5px;
+  padding-right: 5px;
+
+}
+
+.favoritos {
+  position: absolute;
+  left: 0px;
+  width: 100px;
+  height: 27px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+
+.group1 {
+  width: 193.8px;
+  height: 66px;
+  margin: auto;
+  color: #FFFFFF;
+  margin-top: 150px;
+}
+
+.filtro {
+  width: 338px;
+  height: 25px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 25px;
+
+  color: #FFFFFF;
+}
+
+.button-bg {
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button-background {
+  /* Button estudiantes */
+  align-self: center;
+
+  position: relative;
+  width: 288px;
+  height: 67px;
+  margin-top: 50px;
+
+  border: 4px solid #6B63B5;
+
+
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  /* or 147% */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #FFFFFF;
+
+  border-radius: 4px;
+
+  &:hover {
+    background: rgba(107, 99, 181, 0.6);
+  }
+  &:active {
+    background: #6B63B5;
+  }
+}
+
+
+
+
+.card-background {
+  width: 515px;
+  height: 265px;
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* White */
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 16px;
+
+  /* Main Shadow */
+
+  filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
+}
+
+.card-background-finado {
+  width: 515px;
+  height: 265px;
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* White */
+
+  background: #CCCCCC;;
+  border: 1px solid #000000;
+  border-radius: 16px;
+
+  /* Main Shadow */
+
+  filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
+}
+
+.icon-background {
+  position: absolute;
+  width: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: linear-gradient(135deg, #FF0000 0%, #FED482 100%);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.icon-background-slytherin {
+  position: absolute;
+  width: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* Slytherin */
+
+  background: linear-gradient(135deg, #1C792B 0%, #82E95E 100%);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.icon-background-hufflepuff {
+  position: absolute;
+  width: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: linear-gradient(135deg, #FFC700 0%, #FFF388 100%);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.icon-background-ravenclaw {
+  position: absolute;
+  width: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: linear-gradient(135deg, #0597B7 0%, #66D1FF 100%);
+  border-radius: 16px 0px 0px 16px;
+}
+
+.vivo {
+  position: absolute;
+  left: 235px;
+  top: 8.3%;
+  width: 233px;
+  height: 19px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #999999;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.info-card {
+
+  margin-left: 240px;
+}
+
+.heading-text {
+
+  /* Harry Potter */
+
+
+  position: absolute;
+  width: 280px;
+  height: 46px;
+  left: 235px;
+  top: 64px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 46px;
+  /* identical to box height, or 153% */
+
+
+  /* Heading text */
+
+  color: #081F32;
+}
+
+.icon-card {
+
+  position: absolute;
+  left: 235px;
+  right: 4.27%;
+  top: 8.3%;
+  bottom: 83.4%;
+
+
+}
+
+.card-content {
+  position: absolute;
+  width: 184px;
+  height: 112px;
+  left: 235px;
+  top: 131px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 27px;
+
+
+  color: #374A59;
+}
+
+.card-image {
+
+  position: absolute;
+  left: 3.63%;
+  right: 63.5%;
+  top: 14.33%;
+  bottom: -1.24%;
+  border-radius: 50%;
+  width: 192px;
+  height: 192px;
+}
+
+.some-page-wrapper {
+
+
+  // background-color: red;
+  width: 1280px;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.blue-column {
+  // background-color: blue;
+  height: 310px;
+}
+
+.dataCharacters {
+  margin-top: 50px;
+}
