@@ -12,7 +12,7 @@ function App() {
   const getStudents = () => {
     
     setCharacteres(charactersFilterStudents.filter((characters)=> {
-      return characters.hogwartsStudent == true;
+      return characters.hogwartsStudent === true;
     }))
   }
 
@@ -20,7 +20,7 @@ function App() {
 
     
     setCharacteres(charactersFilterStafs.filter((characters)=> {
-      return characters.hogwartsStaff== true;
+      return characters.hogwartsStaff === true;
     }))
   }
   return (
