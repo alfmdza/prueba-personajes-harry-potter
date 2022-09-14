@@ -17,7 +17,7 @@ const Card = (props) => {
             <div className={(item.house === 'Slytherin' ? 'icon-background-slytherin'
               : item.house === 'Hufflepuff' ? 'icon-background-hufflepuff' : item.house === 'Ravenclaw' ? 'icon-background-ravenclaw'
                 : 'icon-background')}>
-              <img srcSet={item.image} alt="" className='card-image'/>
+              <img src={item.image} alt="" className='card-image'/>
             </div>
             <div className='info-card'>
               <div className='vivo'><div>{item.alive ? 'VIVO' : 'FINADO'} / {item.hogwartsStudent ? 'ESTUDIANTE' : 'STAFF'}</div>{item.alive ? <FontAwesomeIcon icon={faBookmark} className='icon-card' /> : <FontAwesomeIcon icon={farBookmark} className='icon-card'/>}</div>
