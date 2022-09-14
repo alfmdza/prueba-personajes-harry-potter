@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark} from '@fortawesome/free-solid-svg-icons'
 import { faBookmark as farBookmark} from '@fortawesome/free-regular-svg-icons'
-import JsonData from '../../AMTEST/hp-characters.json'
 
 
 const Card = (props) => {
